@@ -1,0 +1,12 @@
+[
+  "probeEvents=192",
+  "probeDropped=1728",
+  "probeLead=640",
+  "probeBass=640",
+  "probeResponse=640",
+  "probeRowsAreArrays=true",
+  "probeFault=none",
+  "probeFaultReceiver=none",
+  "upstreamWithClosureCaller=Frame",
+  "upstreamNoClosureCaller=Array"
+]

@@ -1,0 +1,47 @@
+Provenance for the selected RED/GREEN evidence files
+====================================================
+
+All excerpts below are verbatim from retained evidence archives of the earlier
+investigation. The archives themselves are not included in this contribution;
+only the small excerpts listed here are.
+
+1. red-application-frame-error.txt
+   Source archive: technical-evidence.tar.gz
+   Archive SHA-256: 0f6fb7b1157da33484d7840365b2bd5657f10774272be0309b2abaf6fc0334d5
+   Member: grounded-musical-agency-20261025-check-2/archive/sclang-stdout.log
+   Lines: 70-76 (verbatim; one trailing newline added by this extract)
+
+2. red-application-frame-address-reuse.txt
+   Source archive: technical-evidence.tar.gz
+   Archive SHA-256: 0f6fb7b1157da33484d7840365b2bd5657f10774272be0309b2abaf6fc0334d5
+   Member: grounded-musical-agency-20261025-check-2/archive/sclang-stdout.log
+   Lines: 292-303 (verbatim; one trailing newline added by this extract)
+
+   The receiver address 0x76de44e6c8 appears at line 73 (gc=F4) and again at
+   line 300 (gc=FC). That is an observation from the log; the allocation
+   history itself is not logged.
+
+3. green-circular-put-stdout.txt
+   Source archive: frame-investigation-evidence.tar.gz
+   Archive SHA-256: cc8c144c73f2fe13728fd67437f47e3b6d7c95566e5902d6706d9eb78c271d7e
+   Member: grounded-musical-agency-frame-probe-circular-put/stdout.log
+   Lines: the block between ###SCG-BEGIN### and ###SCG-END### (verbatim)
+
+4. green-circular-put-payload.json
+   Source archive: frame-investigation-evidence.tar.gz
+   Archive SHA-256: cc8c144c73f2fe13728fd67437f47e3b6d7c95566e5902d6706d9eb78c271d7e
+   Member: grounded-musical-agency-frame-probe-circular-put/payload.json
+   Content: verbatim copy
+
+Caveats
+-------
+- The GREEN probe log's head shows sclang compiling the machine's class
+  library, including downloaded quarks. The GREEN result is therefore a
+  control on the eviction policy, not a quark-free or default-class-library
+  baseline. The same applies to the two #7711 control runs summarized in the
+  report.
+- The application log is from a private application; its source is not linked
+  publicly. Only the two error excerpts above are included.
+- No per-run logs were retained for the 20/25 capacity-192 series, the capacity
+  sweep, or the tail-removal count. Those are historical recorded outcomes in
+  the report, not retained-log measurements.

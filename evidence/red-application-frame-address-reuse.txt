@@ -1,0 +1,12 @@
+^^ ERROR: Message 'at' not understood.
+Perhaps you misspelled 'as', or meant to call 'at' on another receiver?
+RECEIVER: Frame (0x76de44e6c8) of CollStream:putAll
+
+
+ERROR: Message 'at' not understood.
+Perhaps you misspelled 'as', or meant to call 'at' on another receiver?
+RECEIVER:
+Instance of Frame {    (0x76de44e6c8, gc=FC, fmt=01, flg=00, set=03)
+  indexed slots [7]
+      0 : instance of Method CollStream:putAll (0x76df8d2b40)
+      1 : Integer 0
